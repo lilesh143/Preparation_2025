@@ -11,7 +11,7 @@ def sieve_of_eratosthenes(n):
         p+=1
     
     prime=[]
-    
+
     for i in range(len(is_prime)):
         if is_prime[i] == True:
             prime.append(i)
